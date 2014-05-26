@@ -31,6 +31,7 @@ public class Main {
 	private static void callServices(Configuration conf, RestExpress server) {
 		server.uri("/demo", conf.getDemoController())
 		.method(HttpMethod.GET).method(HttpMethod.POST);
+		
 	}
 
 	private static Configuration loadEnvironment(String[] args) throws FileNotFoundException, IOException {
