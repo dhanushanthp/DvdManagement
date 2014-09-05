@@ -7,7 +7,7 @@ public class Domain {
 	/**
 	 * {"input" : "what ever data"}
 	 */
-	@SerializedName("input")
+	@SerializedName("dataIn")
 	private String dataIn;
 
 	public String getDataIn() {
