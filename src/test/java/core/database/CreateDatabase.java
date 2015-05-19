@@ -3,7 +3,7 @@ package core.database;
 //STEP 1. Import required packages
 import java.sql.*;
 
-public class JDBCExample {
+public class CreateDatabase {
 	// JDBC driver name and database URL
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 	static final String DB_URL = "jdbc:mysql://localhost/";
