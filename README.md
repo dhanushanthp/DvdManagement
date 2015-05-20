@@ -12,3 +12,5 @@ show tables
 show tables;
 
 describe table_name;
+
+SELECT * FROM table_name;

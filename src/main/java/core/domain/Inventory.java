@@ -1,9 +1,9 @@
 package core.domain;
 
 public class Inventory {
-	private long iselNum;
-	private int shelfNum;
-	private int copyNum;
+	private long iselNum = 0;
+	private int shelfNum = 0;
+	private int copyNum = 0;
 
 	public int getCopyNum() {
 		return copyNum;

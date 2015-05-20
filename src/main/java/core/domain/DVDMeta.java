@@ -1,17 +1,15 @@
 package core.domain;
 
-import java.util.List;
-
 public class DVDMeta {
 	private String title;
-	private int year;
-	private List<Actor> actors;
+	private String year;
+	private String actors;
 	private int imdbRating;
-	private FORMAT format;
+	private String format;
 
 	private Inventory inventory;
 
-	public DVDMeta(String title, int year, List<Actor> actors, int imdbRating, FORMAT format) {
+	public DVDMeta(String title, String year, String actors, int imdbRating, String format) {
 		this.title = title;
 		this.year = year;
 		this.actors = actors;
@@ -23,11 +21,11 @@ public class DVDMeta {
 		return title;
 	}
 
-	public int getYear() {
+	public String getYear() {
 		return year;
 	}
 
-	public List<Actor> getActors() {
+	public String getActors() {
 		return actors;
 	}
 
@@ -35,7 +33,7 @@ public class DVDMeta {
 		return imdbRating;
 	}
 
-	public FORMAT getFormat() {
+	public String getFormat() {
 		return format;
 	}
 
